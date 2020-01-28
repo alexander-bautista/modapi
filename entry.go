@@ -1,9 +1,11 @@
 package main
 
 import (
-	"github.com/alexander-bautista/modapi/employee"
+	"fmt"
+
 )
 
 func main() {
-	employee.Hello()
+	fmt.Println("hello")
+	//employee.Hello()
 }
